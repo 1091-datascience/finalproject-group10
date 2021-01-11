@@ -61,8 +61,6 @@ SVM
 | fold5 | 0.71     | 0.56 |
 | ave.  | 0.71     | 0.54 |
 
-![pic](svm_performance.png)
-
 KNN
 
 | set   | training | test |
@@ -73,8 +71,6 @@ KNN
 | fold4 | 0.91     | 0.54 |
 | fold5 | 0.7      | 0.49 |
 | ave.  | 0.77     | 0.5  |
-
-![pic_two](knn_performance.png)
 
 ## 總結
 
