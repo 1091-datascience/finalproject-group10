@@ -37,9 +37,9 @@ SVM與KNN
 
 ## 結果
 SVM
-![pic](!svm_performance.png)
+![pic](svm_performance.png)
 KNN
-![pic_two](!knn_performance.png)
+![pic_two](knn_performance.png)
 
 ## 總結
 
