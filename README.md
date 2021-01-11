@@ -11,7 +11,7 @@
 ## 資料說明
 * 001_中文資料.csv：歌曲的raw data，包含歌名、歌詞、分類、作詞者、作曲者、發行年份與收藏頻率。
 * 002_w2vDim400_1215.csv：將歌詞透過word2vec進行word embedding取400維。
-* 003_tfidf_0110.csv：將歌名透過word2vec進行word embedding取400維、歌詞透過tf-idf進行word embedding，後透過svd降維至200，另有新增歌曲的情感分數(Valence, Arousal)2維。
+* 003_tfidf_0110.csv：將歌名透過word2vec進行word embedding取400維、歌詞透過tf-idf進行word embedding後透過svd降維至200，另有新增歌曲的情感分數(Valence, Arousal)2維。
 ## 分類目標
 
 ## Null Model
