@@ -49,3 +49,8 @@ KNN
 * https://rpubs.com/skydome20/R-Note14-SVM-SVR
 * https://mojim.com/
 * https://www.xiami.com/
+
+* Packages：
+ * kknn
+ * caret
+ * e1071
