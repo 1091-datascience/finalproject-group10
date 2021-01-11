@@ -54,25 +54,12 @@
 
 ### SVM
 ![svmScore](./results/result_SVM.jpg)
-| set   | training | test |
-|-------|----------|------|
-| fold1 | 0.71     | 0.53 |
-| fold2 | 0.71     | 0.56 |
-| fold3 | 0.71     | 0.53 |
-| fold4 | 0.71     | 0.54 |
-| fold5 | 0.71     | 0.56 |
-| ave.  | 0.71     | 0.54 |
 
 ### KNN
+![knnScore](./results/result_KNN.jpg)
 
-| set   | training | test |
-|-------|----------|------|
-| fold1 | 0.85     | 0.53 |
-| fold2 | 0.88     | 0.56 |
-| fold3 | 0.52     | 0.53 |
-| fold4 | 0.91     | 0.54 |
-| fold5 | 0.7      | 0.49 |
-| ave.  | 0.77     | 0.5  |
+### RandomForest
+![rmScore](./results/result_RandomForest.jpg)
 
 * 如何產生結果？
 
