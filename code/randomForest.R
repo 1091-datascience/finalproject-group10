@@ -36,7 +36,7 @@ folds <- createFolds(d$lab, k = strtoi(k_fold), list = T, returnTrain =F)
 set <- c()
 training_acc <- c()
 test_acc <- c()
-best_model_acc = 0 # Test
+best_model_acc <- 0 # Test
 for(i in 1:k_fold){
   print(paste("k_fold", i))
   test_set <- d[folds[[i]],]
@@ -56,8 +56,8 @@ for(i in 1:k_fold){
   test_acc <- c(test_acc, round(test_results$overall[['Accuracy']], digits = 2))
   
   if(train_results$overall[['Accuracy']] > best_model_acc){
-    best_model_acc = train_results$overall[['Accuracy']]
-    model = tmp_model
+    best_model_acc <- train_results$overall[['Accuracy']]
+    model <- tmp_model
   }
 }
 

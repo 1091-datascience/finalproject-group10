@@ -36,6 +36,7 @@ kv <- round(sqrt(nrow(d)))
 set <- c()
 training_acc <- c()
 test_acc <- c()
+best_model_acc <- 0 # Test
 for(i in 1:k_fold){
   print(paste("k_fold", i))
   test_set <- d[folds[[i]],]
@@ -50,6 +51,11 @@ for(i in 1:k_fold){
   set <- c(set, paste("fold", i, sep=""))
   training_acc <- c(training_acc, round(train_results$overall[['Accuracy']] , digits = 2))
   test_acc <- c(test_acc, round(test_results$overall[['Accuracy']], digits = 2))
+  
+  if(train_results$overall[['Accuracy']] > best_model_acc){
+    best_model_acc <- train_results$overall[['Accuracy']]
+    model <- tmp_model
+  }
 }
 
 set <- c(set, "ave.")
@@ -60,3 +66,14 @@ out_data<-data.frame(set = set, training = training_acc, test = test_acc, string
 print(out_data)
 
 write.csv(out_data, file=report_file, row.names = F, quote = F)
+
+# Print best model f1 score
+data_results <- confusionMatrix(table(pred=predict(model, d), d$lab))
+print("Confusion Matrix")
+print(table(pred=predict(model, d), d$lab))
+print("Precision")
+print(data_results[["byClass"]][ , "Precision"])
+print("Recall")
+print(data_results[["byClass"]][ , "Recall"])
+print("F1 score")
+print(data_results[["byClass"]][ , "F1"])
