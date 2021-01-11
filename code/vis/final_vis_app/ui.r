@@ -20,7 +20,7 @@ shinyUI(pageWithSidebar(
     tableOutput("table2"),
     titlePanel('Summary'),
     tableOutput('table3'),
-    titlePanel('Iris'),
+    titlePanel('Data'),
     dataTableOutput("table1"),
 
     )

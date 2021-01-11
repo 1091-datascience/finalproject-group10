@@ -1,8 +1,8 @@
 library(shiny)
 library(ggvis)
 # log transform 
-data <- read.csv("../002_w2vDim400_1215.csv")
-log.data <- log(abs(data[, 9:col(data)]))
+data <- read.csv("../../../data/002_w2vDim400_1215.csv")
+log.data <- data[, 9:199]
 data.cates <- data[, 2]
 
 # apply PCA - scale. = TRUE is highly advisable, but default is FALSE. 
