@@ -1,2 +1,17 @@
-# finalproject-group10
-finalproject-group10 created by GitHub Classroom
+# 資料科學期末報告
+
+組員：
+
+## 資料說明
+
+## 分類目標
+
+## Null Model
+
+## 採用的方法
+
+## 結果
+
+## 總結
+
+## 參考資料
