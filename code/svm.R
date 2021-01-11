@@ -39,7 +39,7 @@ set <- c()
 training_acc <- c()
 test_acc <- c()
 for(i in 1:k_fold){
-  print(paste("k_fold", k_fold))
+  print(paste("k_fold", i))
   test_set <- d[folds[[i]],]
   train_set <- d[-folds[[i]],]
   
