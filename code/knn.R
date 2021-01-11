@@ -11,9 +11,6 @@ while(i < length(args))
   }else if(args[i] == "--train"){
     train_file<-args[i+1]
     i<-i+1
-  }else if(args[i] == "--test"){
-    test_file<-args[i+1]
-    i<-i+1
   }else if(args[i] == "--report"){
     report_file<-args[i+1]
     i<-i+1

@@ -74,11 +74,15 @@
 | fold5 | 0.7      | 0.49 |
 | ave.  | 0.77     | 0.5  |
 
+* 如何產生結果？
+
+<pre><code>Rscript svm.R/knn.R --fold 5 --train data/002_w2vDim400_1215.csv --report performance.csv</code></pre>
+    
 ## 總結
 
 ### 資料前處理挑戰：
   * 結巴斷詞 V.S. CKIP斷詞 → CKIP斷詞效果較佳
-  * Word2Vec V.S. Tf-Idf → 歌名選用Word2Vec，歌詞選用Tf-Idf
+  * Word2Vec V.S. Tf-Idf → Word2Vec效果較佳
 ### 是否有很明顯的進步?
   * 沒到非常明顯，從0.418到0.54左右
 ### 最具挑戰的部分?
