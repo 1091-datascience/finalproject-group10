@@ -53,7 +53,7 @@
 ## 結果
 
 ### SVM
-
+![svmScore](./results/result_SVM.jpg)
 | set   | training | test |
 |-------|----------|------|
 | fold1 | 0.71     | 0.53 |
