@@ -3,16 +3,24 @@ library(shiny)
 shinyUI(pageWithSidebar(
   div(),
   sidebarPanel(
-    selectInput("vert", "Vertical:",
-            c("PC1" = 1,
-              "PC2" = 2,
-              "PC3" = 3,
-              'PC4' = 4)),
-    selectInput("horz", "Horizonal:",
-              c("PC1" = 1,
-              "PC2" = 2,
-              "PC3" = 3,
-              'PC4' = 4)),
+    numericInput(
+    'vert',
+    'Vertical:',
+    1,
+    min = 1,
+    max = 341,
+    step = 1,
+    width = NULL
+    ),
+    numericInput(
+    'horz',
+    'Horizonal:',
+    2,
+    min = 1,
+    max = 341,
+    step = 1,
+    width = NULL
+    ),
   ),
   mainPanel(
     plotOutput("plot_ui"),
