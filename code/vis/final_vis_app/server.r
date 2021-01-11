@@ -1,7 +1,7 @@
 library(shiny)
 library(ggvis)
 # log transform 
-data <- read.csv("../../../data/002_w2vDim400_1215.csv")
+data <- read.csv("002_w2vDim400_1215.csv")
 log.data <- data[, 9:349 + 9]
 data.cates <- data[, 2]
 
