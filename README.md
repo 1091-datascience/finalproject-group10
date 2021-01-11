@@ -23,10 +23,10 @@
 ## 分類目標
 
 預測各歌曲種類，分別為：
-  1) encourage
-  2) love
-  3) friend
-  4) family
+  1) encourage(勵志)
+  2) family(親情)
+  3) friend(友情)
+  4) love(愛情)
 
 ## Null Model
 
@@ -45,10 +45,11 @@
 
 * SVM
 * KNN
+* RandomForest
 
 ## 視覺化網頁
 
-[ShinyApp](https://zovjsra.shinyapps.io/final_vis_app/)
+[Click Me](https://zovjsra.shinyapps.io/final_vis_app/)
 
 ## 結果
 
