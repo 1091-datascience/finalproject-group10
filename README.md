@@ -63,7 +63,7 @@
 
 * 如何產生結果？
 
-<pre><code>Rscript svm.R/knn.R --fold 5 --train data/002_w2vDim400_1215.csv --report performance.csv</code></pre>
+<pre><code>Rscript svm.R/knn.R/randomForest.R --fold 5 --train data/002_w2vDim400_1215.csv --report performance.csv</code></pre>
     
 ## 總結
 
