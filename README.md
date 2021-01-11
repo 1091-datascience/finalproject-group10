@@ -74,6 +74,8 @@
 | fold5 | 0.7      | 0.49 |
 | ave.  | 0.77     | 0.5  |
 
+* 如何產生結果？
+<Rscript svm.R/knn.R --fold 5 --train data/002_w2vDim400_1215.csv --report performance.csv>
 ## 總結
 
 ### 資料前處理挑戰：
