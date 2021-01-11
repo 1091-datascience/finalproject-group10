@@ -78,7 +78,7 @@
 
 ### 資料前處理挑戰：
   * 結巴斷詞 V.S. CKIP斷詞 → CKIP斷詞效果較佳
-  * Word2Vec V.S. Tf-Idf → 歌名選用Word2Vec，歌詞選用Tf-Idf
+  * Word2Vec V.S. Tf-Idf → Word2Vec效果較佳
 ### 是否有很明顯的進步?
   * 沒到非常明顯，從0.418到0.54左右
 ### 最具挑戰的部分?
