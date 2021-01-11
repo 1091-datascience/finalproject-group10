@@ -74,6 +74,11 @@ KNN
 
 ## 總結
 
+* 是否有很明顯的進步?
+  * 沒到非常明顯，從0.418到0.55
+* 最具挑戰的部分?
+  * 歌詞轉換成word2vec時，是否真的能當作好的feature
+
 ## 參考資料
 
 * https://rpubs.com/skydome20/R-Note14-SVM-SVR
