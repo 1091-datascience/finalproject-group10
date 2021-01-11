@@ -38,7 +38,7 @@
 猜機率最高之encourage
 
 * How do you perform evaluation?
-  * cross validation
+  * n fold cross validation
   * accuracy
 
 ## 採用的方法
