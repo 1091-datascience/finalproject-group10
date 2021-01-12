@@ -51,7 +51,7 @@
 
 [Click Me](https://zovjsra.shinyapps.io/final_vis_app/)
 
-![pcaPic](./results/PCA.png)
+![pcaPic](./results/PCA.png) ![featuresPic](./results/Features.png)
 
 ## 結果
 
