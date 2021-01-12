@@ -89,3 +89,4 @@
   + kknn
   + caret
   + e1071
+  + randomForest
